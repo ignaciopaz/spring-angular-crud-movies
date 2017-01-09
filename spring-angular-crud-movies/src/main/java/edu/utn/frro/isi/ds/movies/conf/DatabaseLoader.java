@@ -37,12 +37,12 @@ public class DatabaseLoader implements CommandLineRunner {
 	}
 
 	private void loadMovies() {
-		this.movieRepository.save(new Movie("ABC", "2007", "AA", "Drama"));
-		this.movieRepository.save(new Movie("DEF", "2001", "Baggins", "Drama"));
-		this.movieRepository.save(new Movie("GHI", "2016", "the Grey", "Terror"));
-		this.movieRepository.save(new Movie("JKL", "2011", "Gamgee", "Science Fiction"));
-		this.movieRepository.save(new Movie("MNO", "2001", "Brandybuck", "Comedy"));
-		this.movieRepository.save(new Movie("PQR", "2005", "Took", "Action"));
+		this.movieRepository.save(new Movie("Matrix", "1999", "Lana Wachowski, Lilly Wachowski", "Action"));
+		this.movieRepository.save(new Movie("Swordfish", "2001", "Dominic Sena", "Suspense"));
+		this.movieRepository.save(new Movie("War games", "1983", "John Badham", "Science Fiction"));
+		this.movieRepository.save(new Movie("Pulp Fiction", "1994", "Quentin Tarantino", "Drama"));
+		this.movieRepository.save(new Movie("The Lord of the Rings: The Return of the King ", "2001", "Peter Jackson", "Adventure"));
+		this.movieRepository.save(new Movie("Fight Club", "1999", "David Fincher", "Drama"));
 	}
 	
 }
