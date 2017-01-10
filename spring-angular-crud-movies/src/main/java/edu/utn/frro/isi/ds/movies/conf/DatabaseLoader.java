@@ -43,6 +43,9 @@ public class DatabaseLoader implements CommandLineRunner {
 		this.movieRepository.save(new Movie("Pulp Fiction", "1994", "Quentin Tarantino", "Drama"));
 		this.movieRepository.save(new Movie("The Lord of the Rings: The Return of the King ", "2001", "Peter Jackson", "Adventure"));
 		this.movieRepository.save(new Movie("Fight Club", "1999", "David Fincher", "Drama"));
+		this.movieRepository.save(new Movie("Monty Python's Life of Brian", "1979", "John Goldstone", "Comedy"));
+		
+		
 	}
 	
 }
